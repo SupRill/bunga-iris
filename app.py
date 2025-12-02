@@ -30,5 +30,4 @@ if st.button("Predict type of Iris"):
 st.text('')
 st.text('')
 
-st.markdown("# Judul\nIni paragraf markdown.")
 
