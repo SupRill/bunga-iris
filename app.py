@@ -13,13 +13,13 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.text("Sepal characteristics")
-    sepal_l = st.slider('Sepal lenght (cm)', 1.0, 8.0, 0.5)
-    sepal_w = st.slider('Sepal width (cm)', 2.0, 4.4, 0.5)
+    sepal_l = st.slider('Sepal length (cm)', 4.0, 8.0, 5.8)
+    sepal_w = st.slider('Sepal width (cm)', 2.0, 4.5, 3.0)
 
 with col2:
-    st.text("Pepal characteristics")
-    petal_l = st.slider('Petal lenght (cm)', 1.0, 7.0, 0.5)
-    petal_w = st.slider('Petal width (cm)', 0.1, 2.5, 0.5)
+    st.text("Petal characteristics")
+    petal_l = st.slider('Petal length (cm)', 1.0, 7.0, 4.3)
+    petal_w = st.slider('Petal width (cm)', 0.1, 2.5, 1.3)
 
 st.text('')
 if st.button("Predict type of Iris"):
